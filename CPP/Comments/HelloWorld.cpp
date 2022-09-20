@@ -12,7 +12,8 @@
 
 int main(){
 
-    // This is going to print "The message inside" to the console  
+    // This is going to print "The message inside" to the console
+    // Changed
     std :: cout << "I am Arun Jyoti" << std :: endl;
 
     //Printing the error message
