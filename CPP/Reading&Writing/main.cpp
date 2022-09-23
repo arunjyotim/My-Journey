@@ -32,9 +32,12 @@ int main(){
     std :: string fullName;
     int age3;
 
-    std :: cout << "Enter you full name and age: " << std :: endl;
-    std :: getline(std :: cin, fullName);
+    std :: cout << "Please type in your full name and age " << std :: endl;
+    std :: getline(std:: cin, fullName);
+
     std :: cin >> age3;
+
+    
 
     std :: cout << "Your full name is " << fullName << " and you are " << age3 << " Years old" << std :: endl;
 

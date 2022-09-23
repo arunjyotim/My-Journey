@@ -20,6 +20,13 @@ int main(){
 
     std :: cout << "Sum : " << sum << std::endl;
 
+    std :: cout << "The second Result" << std :: endl;
+
+    int sum2 = addNumber(45, 67);
+    std :: cout << "Sum 2 : " << sum2 << std :: endl; 
+
+    std :: cout << "Sum 3: " << addNumber(23, 32) << std ::     endl;
+
 
 
     system("pause");
