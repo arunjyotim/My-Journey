@@ -20,7 +20,11 @@ int main(){
     std :: cout << "Number1 == number2 : " << (number1 == number2) << std :: endl;
     std :: cout << "Number1 != number2 : " << (number1 != number2) << std :: endl;
 
-    
+    std :: cout << std :: endl;
+    std :: cout << "Store comparison result and use it later" << std :: endl;
+
+    bool result = (number1 == number2);
+    std :: cout << number1 << " == " << number2 << " : " << result << std :: endl;
 
 
     system("pause");
