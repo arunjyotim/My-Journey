@@ -10,11 +10,14 @@ public :
 
     void print_info()const{
         std :: cout << "name : " << full_name << " , age : " << age << std :: endl;
+        
+        
     }
 
 private :
     std :: string full_name;
     int age;
+        
 
 public :
     //static variable declartion
