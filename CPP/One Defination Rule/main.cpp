@@ -1,4 +1,6 @@
 #include<iostream>
+#include "person.h"
+
 
 //Variable : Declaration and function
 
@@ -7,21 +9,15 @@ double weight{};
 double add(double a, double b);
 
 struct Point{
-    double mX
-    double mY;
-}
+    double mX{};
+    double mY{};
+};
 
 int main(){
     
-    Point p1;
+    Person p1("John Snow", 35);
+    p1.print_info();
 
-    std :: cout << "Point 1"
-    
-    double result = add(13.3, 45.5);
-
-    std :: cout << "Result : " << result << std :: endl;
-
-    system("pause");
     return 0;
 }
 
