@@ -18,6 +18,7 @@ int main(){
         }
     }
 
+    std :: cout << "The sorted array is: " << std :: endl;
     for(int i = 0; i<size-1; i++){
         std :: cout <<  " "  << array[i] << std :: endl;
     }
