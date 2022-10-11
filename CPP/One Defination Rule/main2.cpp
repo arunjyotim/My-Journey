@@ -11,6 +11,7 @@ int main(){
     std :: cout << "A Single code a day makes you better coder away" << std :: endl;
     std :: cout << "A Single code a day makes you better coder away" << std :: endl;
     std :: cout << "A Single code a day makes you better coder away" << std :: endl;
+    std :: cout << "A Single code a day makes you better coder away" << std :: endl;
 
 
     system("pause");
